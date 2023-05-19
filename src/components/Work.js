@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Work = () => {
-  return <div>Work</div>;
+const Query = () => {
+  return <div className='section' id='query'>Query</div>;
 };
 
-export default Work;
+export default Query;
