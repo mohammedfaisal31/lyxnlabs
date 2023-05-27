@@ -15,8 +15,8 @@ const Nav = () => {
                       <Link to='home' activeClass='active' smooth  spy title="Home" offset={-200} className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center link-text'><AiOutlineHome/></Link>    
                       <Link to='about' activeClass='active' smooth spy title="About us" className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center link-text'><AiOutlineInfoCircle/></Link>
                       <Link to='services' activeClass='active' smooth spy title="Services" className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center link-text'><MdElectricalServices/> </Link>
-                      <Link to='contact' activeClass='active' smooth spy title="Contact" className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center link-text' ><BiPhoneCall/> </Link>
                       <Link to='query' activeClass='active' smooth spy title="Drop us a message" className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center link-text'><AiOutlineMail/> </Link>
+                      <Link to='contact' activeClass='active' smooth spy title="Contact" className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center link-text' ><BiPhoneCall/> </Link>
                       
               </div>
             </div>

@@ -5,7 +5,7 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import About from './components/About';
 import Services from './components/Services';
-import Work from './components/Work';
+import Query from './components/Query';
 import Contact from './components/Contact';
 
 const App = () => {
@@ -16,8 +16,9 @@ const App = () => {
       <Nav />
       <About />
       <Services />
+      <Query />
       <Contact />
-      <Work />
+      
       
       <div className='h-[4000px]'></div>
     </div>

@@ -2,8 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 
-const Services = () => {
-  return (<section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='services'>
+const Query = () => {
+  return (<section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='query'>
   <div className='container mx-auto'>
       <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12' >
         <div className='flex-1 text-center font-secondary '>
@@ -13,7 +13,7 @@ const Services = () => {
             whileInView={"show"}
             viewport={{once:false, amount:0.7}}
             className='mb-6 text-[60px] lg:text-[90px] font-secondary uppercase leading-[1]' >
-            <span className='mr-4'>Services</span>
+            <span className='mr-4'>Query</span>
             
           </motion.div>
           <motion.p 
@@ -57,4 +57,4 @@ const Services = () => {
 </section>);
 };
 
-export default Services;
+export default Query;
