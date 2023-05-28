@@ -8,7 +8,7 @@ const Services = () => {
       <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12' >
         <div className='flex-1 text-center font-secondary '>
           <motion.div 
-            variants={fadeIn("up",0.6)}
+            variants={fadeIn("up",0.05)}
             initial={"hidden"}
             whileInView={"show"}
             viewport={{once:false, amount:0.7}}
@@ -16,16 +16,35 @@ const Services = () => {
             <span className='mr-4'>Services</span>
             
           </motion.div>
-          <motion.p 
-            variants={fadeIn("up",0.8)}
+          {/* Subscription Plan Cards */}
+      <div className='flex flex-wrap justify-center gap-4'>
+        {/* Card 1 */}
+        <motion.div 
+            variants={fadeIn("up",0.2)}
             initial={"hidden"}
             whileInView={"show"}
             viewport={{once:false, amount:0.7}}
-          >
-              Quantum computing is a fascinating field that uses the principles of quantum mechanics to perform computations in a completely different way than traditional computers. In traditional computers, we use bits to store and process information, which can be either a 0 or a 1. But in quantum computers, we use quantum bits, or qubits, which can represent 0, 1, or both at the same time.
-              Quantum computing is a fascinating field that uses the principles of quantum mechanics to perform computations in a completely different way than traditional computers. In traditional computers, we use bits to store and process information, which can be either a 0 or a 1. But in quantum computers, we use quantum bits, or qubits, which can represent 0, 1, or both at the same time.
-                
-          </motion.p>
+             className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-4 border border-white rounded-lg'>
+          Event Planning and Management
+        </motion.div>
+        <motion.div 
+            variants={fadeIn("up",0.5)}
+            initial={"hidden"}
+            whileInView={"show"}
+            viewport={{once:false, amount:0.7}}
+             className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-4 border border-white rounded-lg'>
+          Event Planning and Management
+        </motion.div>
+        <motion.div 
+            variants={fadeIn("up",0.9)}
+            initial={"hidden"}
+            whileInView={"show"}
+            viewport={{once:false, amount:0.7}}
+             className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-4 border border-white rounded-lg'>
+          Event Planning and Management
+        </motion.div>
+       
+      </div>
           <motion.div 
             variants={fadeIn("up",0.8)}
             initial={"hidden"}
@@ -34,22 +53,7 @@ const Services = () => {
             className='items-center mb-10 mt-10 mx-auto lg:mx-0 '>
             <button className='btn btn-lg'>Explore with us</button>
           </motion.div>
-
-          {/* <div className='flex items-center text-[25px] gap-x-6 '>
-            <a href="#">
-              <AiFillGithub/>
-            </a>
-            <a href="#">
-              <AiFillLinkedin/>
-            </a>
-            <a href="#">
-              <AiFillFacebook/>
-            </a>
-            <a href="#">
-              <AiFillInstagram/>
-            </a>
-            
-          </div> */}
+        
         </div>
         
       </div>

@@ -31,6 +31,7 @@ const About = () => {
           >
               At Lyxn Labs, our mission is to redefine the event management industry by leveraging innovative technologies to create immersive and unforgettable experiences that captivate audiences.
               We are driven by a set of core values, including creativity, technological excellence, seamless execution, and client satisfaction. These values guide us in every project we undertake
+              Say goodbye to manual processes and embrace smart event management solutions. Our innovative technology platform streamlines every aspect of event planning, from registration and ticketing to attendee management and feedback collection. With real-time data insights, analytics, and seamless communication channels, we ensure your event runs smoothly and efficiently.
           </motion.p>
           <motion.div 
             variants={fadeIn("up",0.8)}
