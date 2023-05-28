@@ -12,7 +12,7 @@ const Header = () => {
               initial={"hidden"}
               whileInView={"show"}
               viewport={{once:false, amount:0.7}}
-              className='text-[35px] semi-bold'
+              className='text-[35px] semi-bold text-black font-bold'
             >
                 LYXN LABS
             </motion.h1>

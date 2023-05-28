@@ -16,7 +16,7 @@ const Banner = () => {
               initial={"hidden"}
               whileInView={"show"}
               viewport={{once:false, amount:0.7}}
-              className='mb-6 text-[50px] lg:text-[80px] font-secondary uppercase leading-[1]' >
+              className='mb-6 text-[50px] lg:text-[80px] font-secondary uppercase leading-[1] text-black' >
               <span className='mr-4'>Your Vision </span><br/>
               <TypeAnimation
                 sequence={[
@@ -38,6 +38,7 @@ const Banner = () => {
               initial={"hidden"}
               whileInView={"show"}
               viewport={{once:false, amount:0.7}}
+              className='text-black font-bold'
             >
                 At LYXN LABS, we pride ourselves on being a leading event management company and a provider of innovative tech products. Our diverse range of services includes designing, developing, and delivering high-quality software solutions and cutting-edge IoT products. 
                 </motion.p>
@@ -62,7 +63,7 @@ const Banner = () => {
               whileInView={"show"}
               viewport={{once:false, amount:0.7}}
               className='items-center mb-10 mt-10 mx-auto lg:mx-0 '>
-              <button className='btn btn-lg'><Link to='about'>Explore with us</Link></button>
+              
             </motion.div>
 
             {/* <div className='flex items-center text-[25px] gap-x-6 '>

@@ -12,7 +12,7 @@ const Services = () => {
             initial={"hidden"}
             whileInView={"show"}
             viewport={{once:false, amount:0.7}}
-            className='mb-6 text-[60px] lg:text-[90px] font-secondary uppercase leading-[1]' >
+            className='mb-6 text-[60px] lg:text-[90px] font-secondary uppercase leading-[1] text-black' >
             <span className='mr-4'>Services</span>
             
           </motion.div>
@@ -24,7 +24,7 @@ const Services = () => {
             initial={"hidden"}
             whileInView={"show"}
             viewport={{once:false, amount:0.7}}
-             className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-4 border border-white rounded-lg'>
+             className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-4 border border-white rounded-lg card'>
           Event Planning and Management
         </motion.div>
         <motion.div 
@@ -32,7 +32,7 @@ const Services = () => {
             initial={"hidden"}
             whileInView={"show"}
             viewport={{once:false, amount:0.7}}
-             className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-4 border border-white rounded-lg'>
+             className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-4 border border-white rounded-lg card'>
           Event Planning and Management
         </motion.div>
         <motion.div 
@@ -40,7 +40,7 @@ const Services = () => {
             initial={"hidden"}
             whileInView={"show"}
             viewport={{once:false, amount:0.7}}
-             className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-4 border border-white rounded-lg'>
+             className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-4 border border-white rounded-lg card'>
           Event Planning and Management
         </motion.div>
        

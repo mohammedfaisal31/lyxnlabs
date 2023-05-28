@@ -19,7 +19,7 @@ const About = () => {
             initial={"hidden"}
             whileInView={"show"}
             viewport={{once:false, amount:0.7}}
-            className='mb-6 text-[60px] lg:text-[90px] font-secondary uppercase leading-[1]' >
+            className='mb-6 text-[60px] lg:text-[90px] font-secondary uppercase leading-[1] text-black' >
             <span className='mr-4'>About us</span>
             
           </motion.div>
@@ -28,6 +28,7 @@ const About = () => {
             initial={"hidden"}
             whileInView={"show"}
             viewport={{once:false, amount:0.7}}
+            className='text-black'
           >
               At Lyxn Labs, our mission is to redefine the event management industry by leveraging innovative technologies to create immersive and unforgettable experiences that captivate audiences.
               We are driven by a set of core values, including creativity, technological excellence, seamless execution, and client satisfaction. These values guide us in every project we undertake
