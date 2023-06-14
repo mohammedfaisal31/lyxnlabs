@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
-
+import {GrTechnology} from "react-icons/gr";
 const Services = () => {
   return (<section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='services'>
   <div className='container mx-auto'>
@@ -25,15 +25,18 @@ const Services = () => {
             whileInView={"show"}
             viewport={{once:false, amount:0.7}}
              className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-4 border border-white rounded-lg card'>
-          Event Planning and Management
+         <p> Event Technology</p>
+         <GrTechnology className='text-white'/>
+        
         </motion.div>
+        
         <motion.div 
             variants={fadeIn("up",0.5)}
             initial={"hidden"}
             whileInView={"show"}
             viewport={{once:false, amount:0.7}}
              className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-4 border border-white rounded-lg card'>
-          Event Planning and Management
+          Software Solutions
         </motion.div>
         <motion.div 
             variants={fadeIn("up",0.9)}
@@ -41,7 +44,7 @@ const Services = () => {
             whileInView={"show"}
             viewport={{once:false, amount:0.7}}
              className='w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-4 border border-white rounded-lg card'>
-          Event Planning and Management
+          AI and metaverse based solutions
         </motion.div>
        
       </div>
@@ -51,7 +54,7 @@ const Services = () => {
             whileInView={"show"}
             viewport={{once:false, amount:0.7}}
             className='items-center mb-10 mt-10 mx-auto lg:mx-0 '>
-            <button className='btn btn-lg'>Explore with us</button>
+            <button className='btn btn-lg'>Contact us</button>
           </motion.div>
         
         </div>

@@ -7,13 +7,15 @@ import About from './components/About';
 import Services from './components/Services';
 import Query from './components/Query';
 import Contact from './components/Contact';
+import Particle from './components/Particle';
 
 const App = () => {
   return (
     <div className='bg-site bg-no-repeat bg-cover overflow-hidden root '>
+      <Particle/>
       <Header />
-      <Banner />
       <Nav />
+      <Banner />
       <About />
       <Services />
       <Query />

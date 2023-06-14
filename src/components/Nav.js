@@ -7,7 +7,7 @@ import { BiPhoneCall} from "react-icons/bi";
 
 
 const Nav = () => {
-  const [activeLink, setActiveLink] = useState(1);
+  const [activeLink, setActiveLink] = useState("home");
 
   const handleIconClick = (link) => {
     setActiveLink(link); // Toggles the active state
@@ -27,25 +27,19 @@ const Nav = () => {
                       </Link>    
                       
                       <Link to='about' activeClass='active' smooth spy title="About us" 
-                              className={`cursor-pointer w-[60px] h-[60px] flex items-center justify-center link-text ${
-                                activeLink === 'about' ? 'text-black' : 'text-white'
-                                }`}
+                              className={`cursor-pointer w-[60px] h-[60px] flex items-center justify-center link-text`}
                                 onClick={() => handleIconClick('about')}>
                                 <AiOutlineInfoCircle className={activeLink === 'about' ? 'text-black' : 'text-white' }/>
                       </Link>
                       
                       <Link to='services' activeClass='active' smooth spy title="About us" 
-                              className={`cursor-pointer w-[60px] h-[60px] flex items-center justify-center link-text ${
-                                activeLink === 'services' ? 'text-black' : 'text-white'
-                                }`}
+                                className={`cursor-pointer w-[60px] h-[60px] flex items-center justify-center link-text `}
                                 onClick={() => handleIconClick('services')}>
                                 <MdElectricalServices className={activeLink === 'services' ? 'text-black' : 'text-white' }/>
                       </Link>
                       <Link to='query' activeClass='active' smooth spy title="About us" 
-                              className={`cursor-pointer w-[60px] h-[60px] flex items-center justify-center link-text ${
-                                activeLink === 'query' ? 'text-black' : 'text-white'
-                                }`}
-                                onClick={() => handleIconClick('about')}>
+                              className={`cursor-pointer w-[60px] h-[60px] flex items-center justify-center link-text `}
+                                onClick={() => handleIconClick('query')}>
                                 <AiOutlineMail className={activeLink === 'query' ? 'text-black' : 'text-white' }/>
                       </Link>
                       
@@ -53,8 +47,8 @@ const Nav = () => {
                               className={`cursor-pointer w-[60px] h-[60px] flex items-center justify-center link-text ${
                                 activeLink === 'contact' ? 'text-black' : 'text-white'
                                 }`}
-                                onClick={() => handleIconClick('about')}>
-                                <BiPhoneCall className={activeLink === 'contact' ? 'text-black' : 'text-white' }/>
+                                onClick={() => handleIconClick('contact')}>
+                                <BiPhoneCall />
                       </Link>
 
               </div>

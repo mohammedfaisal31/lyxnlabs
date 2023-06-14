@@ -40,7 +40,7 @@ const Banner = () => {
               viewport={{once:false, amount:0.7}}
               className='text-black font-bold'
             >
-                At LYXN LABS, we pride ourselves on being a leading event management company and a provider of innovative tech products. Our diverse range of services includes designing, developing, and delivering high-quality software solutions and cutting-edge IoT products. 
+                At LYXN LABS, we wish to pride ourselves on being a leading event management company and a provider of innovative tech products. Our diverse range of services includes designing, developing, and delivering high-quality software solutions and cutting-edge IoT products. 
                 </motion.p>
                 {/* <motion.ul 
                   variants={fadeIn("up",0.8)}
