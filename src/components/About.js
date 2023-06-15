@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 import { TypeAnimation } from 'react-type-animation';
+import { Link } from 'react-scroll';
 
 const About = () => {
   const fadeInVariants = {
@@ -34,6 +35,7 @@ const About = () => {
               We are driven by a set of core values, including creativity, technological excellence, seamless execution, and client satisfaction. These values guide us in every project we undertake
               Say goodbye to manual processes and embrace smart event management solutions. Our innovative technology platform streamlines every aspect of event planning, from registration and ticketing to attendee management and feedback collection. With real-time data insights, analytics, and seamless communication channels, we ensure your event runs smoothly and efficiently.
           </motion.p>
+          <Link to='services'>
           <motion.div 
             variants={fadeIn("up",0.8)}
             initial={"hidden"}
@@ -42,7 +44,7 @@ const About = () => {
             className='items-center mb-10 mt-10 mx-auto lg:mx-0 '>
             <button className='btn btn-lg'>Explore with us</button>
           </motion.div>
-          
+          </Link>
           </div>
         </div>
     </div>

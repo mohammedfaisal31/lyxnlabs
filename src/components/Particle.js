@@ -56,7 +56,7 @@ const Particle = () => {
                         width: 1,
                     },
                     collisions: {
-                        enable: true,
+                        enable: false,
                     },
                     move: {
                         direction: "none",
@@ -71,15 +71,15 @@ const Particle = () => {
                     number: {
                         density: {
                             enable: true,
-                            area: 800,
+                            area: 500,
                         },
-                        value: 80,
+                        value: 50,
                     },
                     opacity: {
                         value: 0.5,
                     },
                     shape: {
-                        type: "square",
+                        type: "triangle",
                     },
                     size: {
                         value: { min: 1, max: 5 },

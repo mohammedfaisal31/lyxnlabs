@@ -57,14 +57,17 @@ const Banner = () => {
                 Our skilled team of designers and developers leverage the latest technologies to deliver tailored software solutions that meet your unique requirements. From web and mobile applications to custom software development, we strive to transform your ideas into scalable and user-friendly solutions.
                  Our commitment to innovation and cutting-edge technology ensures that your business stays ahead of the curve.</li>
               </motion.ul> */}
-            <motion.div 
+            {/* <motion.div 
               variants={fadeIn("up",0.8)}
               initial={"hidden"}
               whileInView={"show"}
               viewport={{once:false, amount:0.7}}
-              className='items-center mb-10 mt-10 mx-auto lg:mx-0 '>
-              
-            </motion.div>
+              className='w-full mt-10 bg-black h-[50px] backdrop-blur-2xl rounded-full
+              max-w-[210px] mx-auto px-5 flex justify-between items-center text-2xl '>
+              <AiFillInstagram/>
+              <AiFillLinkedin/>
+              <AiFillGithub/>
+            </motion.div> */}
 
             {/* <div className='flex items-center text-[25px] gap-x-6 '>
               <a href="#">

@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 import {GrTechnology} from "react-icons/gr";
+import { Link } from 'react-scroll';
 const Services = () => {
   return (<section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='services'>
   <div className='container mx-auto'>
@@ -48,6 +49,7 @@ const Services = () => {
         </motion.div>
        
       </div>
+      <Link to='query'>
           <motion.div 
             variants={fadeIn("up",0.8)}
             initial={"hidden"}
@@ -56,7 +58,7 @@ const Services = () => {
             className='items-center mb-10 mt-10 mx-auto lg:mx-0 '>
             <button className='btn btn-lg'>Contact us</button>
           </motion.div>
-        
+          </Link>
         </div>
         
       </div>
